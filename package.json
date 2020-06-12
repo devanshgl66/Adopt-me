@@ -1,0 +1,36 @@
+{
+  "name": "learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "homepage": "devanshgl66.github.io/Adopt me",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "dev:mock": "cross-env PET_MOCK=mock npm run dev",
+    "prebuild": "npm run dev",
+    "build": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@frontendmasters/pet": "^1.0.3",
+    "@reach/router": "^1.3.3",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "gh-pages": "^3.0.0",
+    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 2 Firefox versions"
+  ]
+}
